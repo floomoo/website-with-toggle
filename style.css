@@ -2,10 +2,8 @@
 
 
 
-
-
 p:hover{
-  color: blue;
+  color: rgb(250, 17, 17);
 }
 
 
@@ -25,9 +23,9 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
-  transition: all 0.4s ease-in;
+  background-color: #339117;
+  color: #138662;
+  transition: all 0.123s ease-in;
 }
 
 [class*="col-"] {
@@ -46,17 +44,17 @@ body {
 .menu li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
+  background-color: #727975;
+  color: #ededed;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .menu li:hover {
-  background-color: #0099cc;
+  background-color: #16903f;
 }
 
 .aside {
-  background-color: #33b5e5;
+  background-color: #33e57d;
   padding: 15px;
   color: #ffffff;
   text-align: center;
@@ -87,7 +85,7 @@ body {
 
 .slide {
   animation: slide-in 1s ease-out;
-  background-color: #9933cc;
+  background-color: #048214;
   color: #ffffff;
   padding: 15px;
 }
@@ -169,7 +167,7 @@ body {
       -moz-transition: transform .4s .4s, z-index .2s .4s;
       transform-origin: 50% 0%;
       transition: transform .4s .4s, z-index .2s .4s;
-      border-color: #cf4a43 transparent transparent transparent;
+      border-color: #43cf5a transparent transparent transparent;
       z-index: 2;
     }
     
@@ -178,7 +176,7 @@ body {
       bottom: 0;
       width: 200px;
       height: 100px;
-      background: #cf4a43;
+      background: #d2be37;
       z-index: 0;
     }
     
@@ -189,7 +187,7 @@ body {
       height: 0;
       border-style: solid;
       border-width: 50px 0 50px 100px;
-      border-color: transparent transparent transparent #e15349;
+      border-color: transparent transparent transparent #49dee1;
       z-index: 2;
     }
     
@@ -199,7 +197,7 @@ body {
       position: absolute;
       width: 160px;
       height: 60px;
-      background: white;
+      background: rgb(28, 33, 186);
       z-index: 1;
       overflow: hidden;
       -webkit-transition: .4s .2s;
@@ -211,7 +209,7 @@ body {
         width: 100%;
         background: repeating-linear-gradient(
           -45deg,
-          #cb5a5e,
+          #cbbe5a,
           #cb5a5e 8px,
           transparent 8px,
           transparent 18px
@@ -223,14 +221,14 @@ body {
         margin-left: 5px;
         height: 10px;
         width: 40%;
-        background: #cb5a5e;
+        background: #74cb5a;
       }
       .letter-context {
         margin-top: 10px;
         margin-left: 5px;
         height: 10px;
         width: 20%;
-        background: #cb5a5e;
+        background: #c93490;
       }
       
       .letter-stamp {
