@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Linked Lists</title>
+</head>
+<body>
+    <h1>Add Linked Lists</h1>
+
+    <label for="num1">Number 1:</label>
+    <input type="text" id="num1" placeholder="e.g., 243">
+
+    <br>
+
+    <label for="num2">Number 2:</label>
+    <input type="text" id="num2" placeholder="e.g., 465">
+
+    <br>
+
+    <button onclick="addNumbers()">Add</button>
+
+    <h2>Result:</h2>
+    <p id="result"></p>
+
+    <script>
+        class ListNode {
+            constructor(val, next = null) {
+                this.val = val;
+                this.next = next;
+            }
+        }
+
+        function addTwoNumbers(l1, l2) {
+            let dummyHead = new ListNode(0);
+            let current = dummyHead;
+            let carry = 0
+        }
