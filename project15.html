@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve Phone Number</title>
+    <!-- Add your CSS styling here -->
+</head>
+<body>
+    <h2>Retrieve Phone Number</h2>
+
+    <label for="phone">Enter Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required maxlength="15">
+    <button onclick="retrievePhoneNumber()">Get Phone Number</button>
+
+    <script>
+        function retrievePhoneNumber() {
+            // Get the phone number input value
+            var phoneNumber = document.getElementById('phone').value;
+
+            // Check if the phone number is not blank
+            if (phoneNumber.trim() === '') {
+                alert('Please enter a phone number.');
+                return;
+            }
+
+            // Check if the phone number contains only numbers and dashes
+            var validPhoneNumberRegex = /^[\d-]+$/;
+            if (!validPhoneNumberRegex.test(phoneNumber)) {
+                // Prepare error message
+                var errorMessage = 'Invalid phone number format. Please use only numbers and dashes.';
+
+                // Display the error message
+                alert(errorMessage);
+                return;
+            }
+
+            // Display the phone number (you can modify this part as needed)
+            alert('Phone Number: ' + phoneNumber);
+        }
+    </script>
+</body>
+</html>
